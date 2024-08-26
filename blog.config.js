@@ -20,7 +20,7 @@ const BLOG = {
   // 3.14.1版本后，欢迎语在此配置，英文逗号隔开 ,  即可支持多个欢迎语打字效果。
   GREETING_WORDS:
     process.env.NEXT_PUBLIC_GREETING_WORDS ||
-    'Hi，我是Ruca,我喜欢人文和艺术！,我们可以交流人文和艺术方面的想法,同时也欢迎民科大咖和各位不同领域大咖前来光顾，一起来碰撞灵感🎉',
+    'Hi，我是Ruca,我喜欢科学和艺术！,我们可以交流科学和艺术方面的想法,同时也欢迎民科大咖和各位不同领域大咖前来光顾，一起来碰撞灵感🎉',
 
   CUSTOM_MENU: process.env.NEXT_PUBLIC_CUSTOM_MENU || false, // 支持Menu 类型，从3.12.0版本起，各主题将逐步支持灵活的二级菜单配置，替代了原来的Page类型，此配置是试验功能、默认关闭。
 
